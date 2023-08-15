@@ -4,9 +4,8 @@ const pokemonapi = require("../api/pokemonapi.js")
 const mon = "charmander"
 const attack = "ember"
 
-// skipped so not ran with other tests
-describe.skip("Pokemon Move Checker", function () {
-    describe.only("Move Checker", function () { // .only can be left on here if test unskipped
+describe("Pokemon Move Checker", function () {
+    describe("Move Checker", function () {
         before(async function () {
             response = await pokemonapi.pokemon(mon)
         })
