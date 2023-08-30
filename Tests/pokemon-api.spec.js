@@ -3,7 +3,7 @@ const pokemonapi = require("../api/pokemonapi.js")
 
 describe.only("/pokemon API Tests", function () {
     describe("Response Contains the Expected Data", async function () {
-        const mon = "pikachu"
+        const mon = "raichu"
         before(async function () {
             response = await pokemonapi.pokemon(mon);
         })
