@@ -4,7 +4,8 @@
   "description": "Messing around with the Pokemon API",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./tests/*.spec.js"
+    "test": "mocha ./tests/*.spec.js",
+    "movecheck": "mocha ./move-checker/move-checker.spec.js"
   },
   "keywords": [],
   "author": "",
